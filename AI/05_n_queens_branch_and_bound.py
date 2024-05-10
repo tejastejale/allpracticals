@@ -37,3 +37,6 @@ def printSolutions(boards):
 if __name__ == "__main__":
     boards = solveNQueens(8)
     printSolutions(boards)
+
+
+# output:{The solveNQueens function has been rewritten using sets (col, posDiag, and negDiag) to keep track of the columns, positive diagonals, and negative diagonals that are under attack by queens. This implementation follows the same N-Queens problem-solving logic but uses a more optimized approach to check for valid queen placements.}

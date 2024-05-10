@@ -92,3 +92,5 @@ if __name__ == "__main__":
     if (quit):
         st.write("Thank you for using the Chatbot")
     
+
+# input:{streamlit run 06_chatbot.py}

@@ -115,6 +115,19 @@ def respond(input: List[str]):
             if (add):
                 for key in symptoms:
                     knowledge_base[key] = [answer]
+    elif (len(symptoms) == 7):
+        if (symptoms[0] == "fever" and symptoms[1] == "sweating"):
+            st.write("You are dead!")
+            st.write("Please take the following medicines and precautions-")
+            for i in knowledge_base["malaria"]:
+                st.write(i)
+        else:
+            st.write("Question is not present in the knowledge base!\nCould you please enter the appropriate answer for the question below-")
+            answer = st.text_input("Answer")
+            add = st.button("Add answer")
+            if (add):
+                for key in symptoms:
+                    knowledge_base[key] = [answer]
 
 if __name__ == "__main__":
     options = st.multiselect(

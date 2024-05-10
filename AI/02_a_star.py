@@ -83,3 +83,15 @@ class Puzzle:
 
 puz = Puzzle(3)
 puz.process()
+
+
+# input:
+# Start state:
+# 1 2 3
+# 4 5 _
+# 7 8 6
+
+# Goal state:
+# 1 2 3
+# 4 5 6
+# 7 8 _

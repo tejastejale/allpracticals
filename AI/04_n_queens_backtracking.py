@@ -56,3 +56,12 @@ def printSolutions(boards):
 if __name__ == "__main__":
     boards = solveNQueens(4)
     printSolutions(boards)
+
+# output{
+# The solveNQueens function implements a backtracking algorithm to solve the N-Queens problem for a given board size n. It finds and returns all possible solutions for placing N queens on an N x N chessboard such that no two queens threaten each other.
+
+# The printSolutions function is used to print the solutions found by solveNQueens in a readable format.
+
+# Here's an explanation of the output for solveNQueens(4) using the provided code:
+
+# The N-Queens problem for n = 4 has two distinct solutions:}
